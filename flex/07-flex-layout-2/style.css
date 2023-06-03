@@ -10,22 +10,62 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  padding: 0 16px;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.mid-content {
+  display: flex;
+  flex: 1;
+}
+
+.flashers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 16px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 25px;
 }
